@@ -1,5 +1,6 @@
 function modifyInto(){
-    document.getElementId("para").innerHTML= "wow, changed";
+    var x = document.getElementId("para");
+    x.style.color = "red";
 }
 function validate(){
     if (isNaN(a) || a<10 || a >15)
